@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --node-root: #ffffff;
+  --node-depth1: #a78bfa;
+  --node-depth2: #7c3aed;
+  --link-color: #cbd5e1;
+  --link-active: #7c3aed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  color: #ededed;
+  font-family: system-ui, sans-serif;
+}
