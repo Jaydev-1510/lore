@@ -1,17 +1,41 @@
 ---
-
+import Base from "@/layouts/base.astro";
+import LoreApp from "@/components/loreApp";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Base title="Lore — Knowledge Explorer">
+  <div class="flex flex-col h-screen">
+    <header
+      class="flex items-center justify-between p-4 border-b border-[#1a1a1a] shrink-0"
+    >
+      <div class="text-[22px] font-bold tracking-tight">
+        <span class="text-[#7c3aed]">Lo</span>re
+        <span class="text-xs text-gray-500 ml-2 uppercase tracking-tight"
+          >Knowledge Explorer</span
+        >
+      </div>
+      <div class="flex gap-2 text-xs text-gray-400">
+        <span>9 nodes</span>
+        <span>·</span>
+        <span>depth 2</span>
+      </div>
+    </header>
+
+    <div class="flex gap-0 px-5 py-3 border-b border-[#1a1a1a] shrink-0">
+      <input
+        type="text"
+        placeholder="Enter any topic — Nikola Tesla, Quantum Mechanics, Roman Empire..."
+        class="flex-1 bg-[#0a0a0a] border border-[#1a1a1a] rounded-l-md px-3.5 py-2.5 text-[#F1F5F9] text-[14px] outline-none"
+      />
+      <button
+        class="bg-[#7c3aed] text-white rounded-r-lg px-5 py-2.5 text-[14px] cursor-pointer"
+      >
+        Explore
+      </button>
+    </div>
+
+    <div class="flex flex-1 overflow-hidden">
+      <LoreApp client:load />
+    </div>
+  </div>
+</Base>
