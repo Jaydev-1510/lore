@@ -1,32 +1,29 @@
 {
   "name": "lore",
   "type": "module",
-  "version": "0.0.1",
-  "engines": {
-    "node": ">=22.12.0"
-  },
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "generate-types": "wrangler types"
+    "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^13.6.0",
-    "@astrojs/react": "^5.0.6",
-    "@tailwindcss/vite": "^4.3.0",
-    "@types/d3": "^7.4.3",
-    "@types/react": "^19.2.15",
-    "@types/react-dom": "^19.2.3",
-    "astro": "^6.4.2",
+    "@astrojs/cloudflare": "^11.2.0",
+    "@astrojs/react": "^3.6.3",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^4.16.19",
     "d3": "^7.9.0",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
-    "tailwindcss": "^4.3.0",
-    "wrangler": "^4.95.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^4.3.3",
+    "wrangler": "^4.123.0"
   },
-  "overrides": {
-    "vite": "^7"
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.9.3"
   }
 }

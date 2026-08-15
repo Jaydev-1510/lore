@@ -1,20 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --node-root: #ffffff;
-  --node-depth1: #a78bfa;
-  --node-depth2: #7c3aed;
-  --link-color: #cbd5e1;
-  --link-active: #7c3aed;
+  --node-root: #7C3AED;
+  --node-depth1: #0F766E;
+  --node-depth2: #475569;
+  --link-color: #CBD5E1;
+  --link-active: #7C3AED;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  background: #000;
-  color: #ededed;
-  font-family: system-ui, sans-serif;
-}
+* { box-sizing: border-box; }
+body { margin: 0; background: #000000; color: #F1F5F9; font-family: "Inter", "system-ui", sans-serif; }
