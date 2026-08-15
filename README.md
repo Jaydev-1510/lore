@@ -1,43 +1,35 @@
-# Astro Starter Kit: Minimal
+Lore
+====
 
-```sh
-bun create astro@latest -- --template minimal
-```
+Lore is an interactive knowledge graph which turns Wikipedia into a rabbit hole of discovery. Search for a topic, explore connected concepts, dive deeper into the rabbit hole, and discover the hidden story connecting everything.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+[live demo](https://lore.xjay.dev) · **Astro + React + D3.js + Cloudflare Workers + Wikipedia API + Groq**
 
-## 🚀 Project Structure
+> **Every Wikipedia rabbit hole has a story.**
 
-Inside of your Astro project, you'll see the following folders and files:
+✦ Features
+----------
+
+* Search any Wikipedia topic
+* Interactive D3 force-directed graph
+* Explore connected concepts
+* AI-generated story arcs with Groq (planned feature)
+* Fast Wikipedia-powered traversal
+* Built for Cloudflare
+
+The idea
+--------
 
 ```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+Search a topic
+      ↓
+Build the graph
+      ↓
+Follow the connections
+      ↓
+Discover the story
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+> Made for people who accidentally spend 3 hours on Wikipedia.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+#### NOTE: This project is still in development and groq ai narrative is a planned feature.
